@@ -19,7 +19,13 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 
-        
+        setContent {
+            DeveloperToolkitAppTheme {
+                val navController = rememberNavController()
+
+                Scaffold(modifier = Modifier.fillMaxSize()) {
+                    AppNavGraph(navController = navController)
+                }
             }
         }
     }
