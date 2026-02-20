@@ -16,7 +16,7 @@ fun HomeScreen(navController: NavHostController) {
             .padding(16.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
-        Text("Developer Toolkit", style = MaterialTheme.typography.headlineMedium)
+        
 
         Button(onClick = {
             navController.navigate(Routes.DEVICE_INFO)

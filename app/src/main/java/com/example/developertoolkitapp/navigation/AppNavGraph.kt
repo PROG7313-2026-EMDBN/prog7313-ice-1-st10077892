@@ -14,7 +14,7 @@ import com.example.developertoolkitapp.ui.screens.LinksScreen
 fun AppNavGraph(navController: NavHostController) {
     NavHost(
         navController = navController,
-        startDestination = Routes.hgfghftrdrtdtfcvyyuhgui
+        startDestination = Routes.HOME
     ) {
 
         composable(Routes.HOME) {
